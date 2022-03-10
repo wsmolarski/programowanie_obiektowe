@@ -2,11 +2,25 @@
 
 namespace lab_01
 {
-    class Program
+    class Ulamek
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Ulamek ulamek1 = new Ulamek();
+            Ulamek ulamek2 = new Ulamek();
         }
+        private int licznik { get; set; }
+        private int mianownik { get; set; }
+
+        public Ulamek()
+        {
+
+        }
+    public Ulamek(int licznik, int mianownik)
+    {
+            this.licznik = licznik;
+            this.mianownik = mianownik;
+    }
+
     }
 }
